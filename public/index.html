@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+
+  <title>Document</title>
+</head>
+<body class="bg-mobile-background md:bg-tablet-background lg:bg-desktop-background lg:h-screen">
+  <div class="body px-4 lg:h-screen lg:mb-0">
+
+    <!--nav-->
+    <nav class="flex px-4 pt-4">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+      </div>
+
+      <div class="ham ml-auto md:hidden mt-4">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+        </button>
+      </div>
+    </nav>
+
+    <!--sidebar menu-->
+    <div class="navbar__menu  w-3/5 fixed top-0 right-0 bottom-0 md:flex md:h-12 md:bg-gray-900 lg:bg-opacity-10 pt-4 px-4 hidden md:block md:items-center md:py-8  bg-black/95 backdrop-filter">
+      
+      <button class="close md:hidden pb-12 flex ml-auto	">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+      </button>
+      
+      <ul class="nav__items flex flex-col pl-4 md:flex-row md:right-0 underline-indicators">
+        <li class="active mr-4 link">
+          <a href="index.html" class="text-faint-gray font-bell tracking-widest md:pr-2 md:text-white outline-offset-8" id="home"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">00</span> HOME</a>
+        </li>
+
+        <li class="mr-4 link">
+          <a href="destination-moon.html" class="text-faint-gray  font-bell tracking-widest mt-4 md:mt-0  md:text-white md:pr-2" id="destination"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">01</span> DESTINATION</a>
+        </li>
+
+        <li class="mr-4 link">
+          <a href="crew-commander.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:pr-2 md:text-white" id="crew"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">02</span> CREW</a>
+        </li>
+
+        <li class="mr-4 link">
+          <a href="technology-vehicle.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:text-white" id="technology"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">03</span> TECHNOLOGY</a>
+        </li>
+      </ul>
+      
+    </div> 
+
+    <!--content-->
+    <div class=" my-16 lg:flex ">
+      <div class=" lg:w-3/5 lg:flex lg:items-end lg:mb-0 lg:mt-32 lg:ml-32">
+        <div class="content text-white mb-16 md:mb-40 items-end ">
+          <h5 class="font-barlow tracking-wider text-faint-gray flex justify-center lg:justify-start">SO, YOU WANT TO TRAVEL TO</h5>
+  
+          <h1 class="font-bell text-7xl tracking-widest pt-4 flex justify-center
+          md:text-9xl lg:justify-start">SPACE</h1>
+          <p class="flex justify-center mt-8 text-faint-gray text-center text-sm md:px-48 lg:justify-start lg:pl-0 lg:text-left">Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!</p>
+        </div>
+      </div>
+          <!--button-->
+    <div class="btn flex justify-center  lg:items-center lg:w-2/5 lg:pb-24">
+      <button class="explore bg-white w-150 h-150  rounded-full lg:w-200 lg:h-200">
+        <a href="#" class="text font-bell  tracking-widest">EXPLORE</a>
+      </button>
+    </div>
+
+
+    </div>
+
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>destination europa</title>
+</head>
+<body class="bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop">
+  <div class="mb-16 ">
+        <!--nav-->
+        <nav class="flex px-4 pt-4">
+          <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+          </div>
+    
+          <div class="ham ml-auto md:hidden mt-4">
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+            </button>
+          </div>
+        </nav>
+    
+        <!--sidebar menu-->
+        <div class="navbar__menu  w-3/5 fixed top-0 right-0 bottom-0 md:flex md:h-12 md:bg-gray-900 lg:bg-opacity-10 pt-4 px-4 hidden md:block md:items-center md:py-8  bg-black/95 backdrop-filter">
+          
+          <button class="close md:hidden pb-12 flex ml-auto	">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+          </button>
+          
+          <ul class="nav__items flex flex-col pl-4 md:flex-row md:right-0 underline-indicators">
+            <li class="mr-4">
+              <a href="index.html" class="text-faint-gray font-bell tracking-widest md:pr-2 md:text-white outline-offset-8" id="home"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">00</span> HOME</a>
+            </li>
+    
+            <li class="active mr-4">
+              <a href="destination-moon.html" class="text-faint-gray  font-bell tracking-widest mt-4 md:mt-0 md:pr-2 md:text-white" id="destination"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">01</span> DESTINATION</a>
+            </li>
+    
+            <li class="mr-4">
+              <a href="crew-commander.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:pr-2 md:text-white" id="crew"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">02</span> CREW</a>
+            </li>
+    
+            <li class="mr-4">
+              <a href="technology-vehicle.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:text-white" id="technology"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">03</span> TECHNOLOGY</a>
+            </li>
+          </ul>
+          
+        </div>
+
+        <h5 class="text-white flex justify-center mt-8 font-barlow text-md tracking-widest md:justify-start md:ml-8 lg:mt-16 lg:ml-24"><span class="mr-4 text-faint-gray">01</span> PICK YOUR DESTINATION</h5>
+
+        <div class="moon lg:flex">
+          <div class="moon__img  flex justify-center mb-8 lg:w-1/2">
+            <img src="space-tourism-website-main/assets/destination/image-europa.png" alt="" class="object-scale-down h-64 w-64 mt-12 lg:h-80 w-80">
+          </div>
+          <div class="lg:w-1/2 lg:flex lg:flex-col lg:ml-0 lg:justify-start">
+            <!--destination tabs-->
+            
+            <div class=" justify-content-start ">
+              <ul class="destination__tabs underline-indicators text-faint-gray uppercase font-barlow flex justify-between mx-16 mb-8 md:mx-52 justify-self-start lg:ml-auto ">
+                <li class="">
+                  <a href="destination-moon.html">moon</a>
+                </li>
+    
+                <li class="">
+                  <a href="destination-mars.html" class="">mars</a>
+                </li>
+    
+                <li class="active">
+                  <a href="destination-europa.html" class="">europa</a>
+                </li>
+    
+                <li>
+                  <a href="destination-titan.html" class="">titan</a>
+                </li>
+              </ul>
+            </div>
+            
+
+
+
+            <!--about the europa-->
+            <h3 class="uppercase text-7xl text-white font-bell flex justify-center tracking-widest mb-4 lg:flex lg:justify-start">europa</h3>
+
+            
+            <div class="grid grid-cols-1 divide-y divide-faint-gray px-8 lg:divide-none lg:px-0" >
+              <p class="text-faint-gray flex justify-center text-center text-sm tracking-widest mb-8 md:px-28  lg:text-left lg:justify-start lg:px-0 lg:mr-48">  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+                winter lover's dream. With an icy surface, it's perfect for a bit of 
+                ice skating, curling, hockey, or simple relaxation in your snug 
+                wintery cabin  </p>
+
+              <!--distance to the europa-->
+
+              <div class="flex justify-center lg:justify-start">
+                <div class=" md:flex ">
+                  <div class="avg__dist font-bell uppercase mt-8 md:mr-16" >
+                    <p class=" text-faint-gray text-sm flex ">avg. distance</p>
+                    <p class="text-white text-2xl ">628 mil. km</p>
+                  </div>
+  
+                  <div class="est__time font-barlow uppercase mt-8">
+                    <p class=" text-faint-gray text-sm tracking-widest">est. travel time</p>
+                    <p class="text-white text-2xl">3 years</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>

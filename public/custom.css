@@ -1,0 +1,75 @@
+.explore:hover {
+    /*box-shadow: 0 0 0 50px rgb(11, 13, 23);
+    transform: scale(0.8);*/
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        box-shadow: 0 0 0 20px rgb(11, 13, 23);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgb(11, 13, 23 );
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+/*.highlight {
+    border-bottom: 4px solid red;
+    padding-top: 1em ;
+    padding-bottom: 1em;
+}*/
+
+.underline-indicators > *{
+    border-bottom: 4px solid transparent;
+    padding-top: 1em ;
+    padding-bottom: 1em;
+    border-color: white/0;
+}
+
+.underline-indicators > *:hover{
+    border-color: gray;
+}
+.underline-indicators > *:focus{
+    border-color: gray;
+}
+
+.underline-indicators > .active{
+    border-color: white;
+    color: white;
+}
+
+.dots > *{
+    background-color: rgba(128, 128, 128, 0.281);
+    color: white;
+}
+
+.dots > *:hover{
+    background-color: gray;
+}
+
+.dots > *:focus{
+    background-color: gray;
+}
+
+.dots > .active{
+    background-color: white;
+    color: black;
+}
+
+
+
+@supports (backdrop-filter: blur(1.5rem)){
+    .navbar__menu{
+        background-color: rgba(255, 255, 255, 0.226);
+        backdrop-filter: blur(1.5rem);
+
+    }
+}
+

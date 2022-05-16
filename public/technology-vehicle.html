@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>technology-vehicle</title>
+</head>
+<body class="bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop">
+
+  <div class="">
+    <!--nav-->
+    <nav class="flex px-4 pt-4">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+      </div>
+
+      <div class="ham ml-auto md:hidden mt-4">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+        </button>
+      </div>
+    </nav>
+
+    <!--sidebar menu-->
+    <div class="navbar__menu  w-3/5 fixed top-0 right-0 bottom-0 md:flex md:h-12 md:bg-gray-900 lg:bg-opacity-10 pt-4 px-4 hidden md:block md:items-center md:py-8  bg-black/95 backdrop-filter">
+      
+      <button class="close md:hidden pb-12 flex ml-auto	">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+      </button>
+      
+      <ul class="nav__items flex flex-col pl-4 md:flex-row md:right-0 underline-indicators">
+        <li class="mr-4">
+          <a href="index.html" class="text-faint-gray font-bell tracking-widest md:pr-2 md:text-white outline-offset-8" id="home"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">00</span> HOME</a>
+        </li>
+
+        <li class=" mr-4">
+          <a href="destination-moon.html" class="text-faint-gray  font-bell tracking-widest mt-4 md:mt-0 md:pr-2 md:text-white" id="destination"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">01</span> DESTINATION</a>
+        </li>
+
+        <li class="mr-4">
+          <a href="crew-commander.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:pr-2 md:text-white" id="crew"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">02</span> CREW</a>
+        </li>
+
+        <li class="active mr-4">
+          <a href="technology-vehicle.html" class="text-faint-gray font-bell tracking-widest mt-4 md:mt-0 md:text-white" id="technology"><span class="text-white mr-2 md:hidden lg:inline-flex lg:mr-0">03</span> TECHNOLOGY</a>
+        </li>
+      </ul>
+      
+    </div>
+
+    <h1 class="text-white flex justify-center uppercase font-barlow tracking-widest text-lg mt-8 mb-8 md:justify-start md:pl-8 lg:pl-28"><span class="mr-4 text-faint-gray">03</span>Space launch 101</h1>
+
+    <section class="lg:flex lg:ml-24">
+
+      <!--landscape image for mobile and tablet-->
+      <img src="space-tourism-website-main/assets/technology/image-launch-vehicle-landscape.jpg" alt="" class="w-screen lg:hidden">
+
+       <!--landscape image for desktop size-->
+      <img src="space-tourism-website-main/assets/technology/image-launch-vehicle-portrait.jpg" alt="" class="hidden lg:block order-2 w-1/2 h-96 ">
+
+      <div class=" mt-8 lg:w-1/2 lg:flex lg:items-start	lg:mt-20">
+        <!--the butons for different technology-->
+        <div class="dots flex justify-center font-bell mb-8 lg:flex-col ">
+          <a href="technology-vehicle.html" class="w-9 h-9 lg:w-12 lg:h-12 rounded-full active mr-4 text-center lg:mr-0 pt-1 lg:pt-3">1</a>
+          <a href="technology-spaceport.html" class="w-9 h-9 lg:w-12 lg:h-12 rounded-full mr-4 text-center lg:mt-6 lg:mr-0 pt-1 lg:pt-3">2</a>
+          <a href="technology-capsule.html" class="w-9 h-9 lg:w-12 lg:h-12 rounded-full text-center lg:mt-6 lg:mr-0 pt-1 lg:pt-3 ">3</a>
+        </div>
+
+        <!--about the launch vehicle-->
+        <div class="article mb-16  lg:pr-24 lg:ml-8">
+          <h2 class="flex justify-center uppercase font-barlow text-faint-gray text-md lg:justify-start">  The terminology...
+          </h2>
+          <h3 class="flex justify-center font-bell text-white text-3xl uppercase mb-8 lg:justify-start">  Launch vehicle
+          </h3>
+
+          <p class="text-faint-gray font-bell flex justify-center text-center text-md px-8 tracking-widest md:px-36 lg:justify-start lg:px-0 lg:text-left">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch
+          </p>
+        </div>
+      </div>
+    </section>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

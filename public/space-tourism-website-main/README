@@ -1,0 +1,30 @@
+# This is a space tourism website 
+
+
+
+
+### what user should be able to do
+
+Users should be able to:
+
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Vanilla javascript
+- [Tailwind] -(https://tailwindcss.com/)
+
+### What I learned
+This project definitely helped me improve more on css grid. I also learnt Glass morphism
+
+
+
+
+
